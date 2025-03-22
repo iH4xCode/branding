@@ -1,0 +1,35 @@
+{% extends 'headphones/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <!-- Centered Image -->
+    <img src="{% static 'images/blue_headphone.png' %}" alt="Blue Headphones" style="display: block; margin: 0 auto; max-width: 300px;">
+
+    <p>Immerse yourself in superior sound quality with noise-canceling technology and a sleek design.</p>
+
+    <!-- Features Section -->
+    <div class="feature-box">
+        <div class="feature-item">
+            <h2>Noise Cancellation</h2>
+            <p>Block out distractions.</p>
+        </div>
+        <div class="feature-item">
+            <h2>Comfortable Fit</h2>
+            <p>Designed for long hours of listening.</p>
+        </div>
+        <div class="feature-item">
+            <h2>Wireless Freedom</h2>
+            <p>Move freely with Bluetooth connectivity.</p>
+        </div>
+    </div>
+
+    <!-- Pricing Section -->
+    <h2 style="margin-top: 50px;">Pricing Plans</h2>
+    <p>Starting at just <strong>₱350</strong></p>
+    <br>
+    <a href="#" class="btn">Buy now</a>
+</div>
+
+
+{% endblock %}
