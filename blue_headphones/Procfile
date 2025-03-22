@@ -1,1 +1,1 @@
-web: gunicorn headphones.wsgi:application --chdir blue_headphones
+web: gunicorn blue_headphones.wsgi:application --chdir blue_headphones/blue_headphones
